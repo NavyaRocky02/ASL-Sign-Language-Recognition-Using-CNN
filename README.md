@@ -63,15 +63,14 @@ ASL-Sign-Language-Recognition-Using-CNN/
 │   ├── asl_alphabet_train/
 │   └── asl_alphabet_test/
 │
-├── screenshots/
+├──├── screenshots/
 │   ├── home.png
 │   ├── a_sign_upload.png
 │   ├── a_sign_predict.png
-│   ├── b_sign_upload.png
-│   ├── b_sign_predict.png
 │   ├── space_sign_upload.png
 │   ├── space_sign_predict.png
-│   └── y_sign_upload.png
+│   ├── y_sign_upload.png
+│   └── y_sign_predict.png
 │
 ├── static/
 │   ├── style.css
