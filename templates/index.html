@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sign Language Recognition | AI</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <header class="hero">
+        <h1>Sign Language Recognition</h1>
+        <p>Recognize American Sign Language Alphabet Using Artificial Intelligence</p>
+    </header>
+
+    <main>
+
+        <!-- Upload Image Section -->
+        <section class="container upload-section">
+
+            <h2>Upload Sign Language Image</h2>
+
+            <p>Select an image of an ASL hand sign.</p>
+
+            <div class="upload-box">
+
+                <input
+                    type="file"
+                    id="uploadInput"
+                    accept="image/*"
+                >
+
+                <img
+                    id="uploadPreview"
+                    src=""
+                    alt="Uploaded hand sign"
+                    style="display:none;"
+                >
+
+                <br>
+
+                <button
+                    id="uploadPredictBtn"
+                    class="btn success"
+                    type="button"
+                    disabled
+                >
+                    Predict Uploaded Image
+                </button>
+
+                <p id="uploadStatus">Please select an image.</p>
+
+                <div class="result-card">
+
+                    <h2>Recognition Result</h2>
+
+                    <div class="prediction-box">
+                        <span id="uploadPrediction">?</span>
+                    </div>
+
+                    <p id="uploadConfidence">Confidence: --</p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- About Project Section -->
+        <section class="container info">
+
+            <h2>About This Project</h2>
+
+            <p>
+                This application uses a Convolutional Neural Network
+                trained on the Sign Language MNIST dataset to recognize
+                American Sign Language alphabet gestures.
+            </p>
+
+            <p>
+                Upload a hand sign image to identify its corresponding
+                alphabet.
+            </p>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Sign Language Recognition | AI-Based Project</p>
+    </footer>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>

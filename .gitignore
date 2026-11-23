@@ -1,0 +1,38 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
+
+# Datasets
+asl_alphabet_dataset/
+dataset/
+
+# Old Random Forest and MediaPipe files
+asl_landmarks.csv
+sign_landmark_model.pkl
+hand_landmarker.task
+extract_landmarks.py
+predict_landmark.py
+train_landmark_model.py
+fix_model.py
+
+# Old CNN models
+sign_language_cnn_model.keras
+sign_language_cnn_model_fixed.keras
+
+# Debug images
+debug_hand.jpg
+debug_webcam.png
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
