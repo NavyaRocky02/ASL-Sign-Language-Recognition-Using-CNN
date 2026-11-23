@@ -94,36 +94,25 @@ ASL-Sign-Language-Recognition-Using-CNN/
 ## Application Screenshots
 
 ### 1. Home Page
-
 ![Home Page](screenshots/home.png)
 
 ### 2. Letter A – Image Upload
-
 ![A Sign Upload](screenshots/a_sign_upload.png)
 
 ### 3. Letter A – Recognition Result
-
 ![A Sign Prediction](screenshots/a_sign_predict.png)
 
-### 4. Letter B – Image Upload
-
-![B Sign Upload](screenshots/b_sign_upload.png)
-
-### 5. Letter B – Recognition Result
-
-![B Sign Prediction](screenshots/b_sign_predict.png)
-
-### 6. Space Sign – Image Upload
-
+### 4. Space Sign – Image Upload
 ![Space Sign Upload](screenshots/space_sign_upload.png)
 
-### 7. Space Sign – Recognition Result
-
+### 5. Space Sign – Recognition Result
 ![Space Sign Prediction](screenshots/space_sign_predict.png)
 
-### 8. Letter Y – Image Upload
-
+### 6. Letter Y – Image Upload
 ![Y Sign Upload](screenshots/y_sign_upload.png)
+
+### 7. Letter Y – Recognition Result
+![Y Sign Prediction](screenshots/y_sign_predict.png)
 
 ## Installation and Setup
 
